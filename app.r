@@ -196,7 +196,7 @@ ui <- fluidPage(
     #   min = 0, max = 2500, value = c(300,1500), sep='') 
     checkboxInput("manual_range", "Manual axis ranges", FALSE),
     sliderInput("x_range", "x-axis range", 
-                min = 0, max = 3500, value = c(500,4500), sep=''),
+                min = 0, max = 3500, value = c(500,3500), sep=''),
     sliderInput("y_range", "y-axis range", 
                 min = 0, max = 1500, value = c(200,1200), sep='')
   ),
